@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Falling_BricksAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Falling_BricksAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* Falling_BricksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* Falling_BricksViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* Falling_BricksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Falling_BricksViewController.m */; };
+		F80DA76A130C114700905464 /* ArrowHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F80DA769130C114700905464 /* ArrowHeadView.m */; };
+		F80DA8F5130C49FE00905464 /* AxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = F80DA8F4130C49FE00905464 /* AxisView.m */; };
+		F80DA927130C4CCC00905464 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F80DA926130C4CCC00905464 /* CircleView.m */; };
+		F83124161309670000157ABD /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = F83124151309670000157ABD /* Shape.m */; };
+		F83124191309677B00157ABD /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = F83124181309677B00157ABD /* Circle.m */; };
+		F8312628130A216800157ABD /* RectangleRectangleCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = F8312627130A216800157ABD /* RectangleRectangleCollision.m */; };
+		F8312694130A2C4C00157ABD /* CircleCircleCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = F8312693130A2C4C00157ABD /* CircleCircleCollision.m */; };
+		F83126B3130A319500157ABD /* RectangleCircleCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = F83126B2130A319500157ABD /* RectangleCircleCollision.m */; };
+		F8638E23130699B600D1BF07 /* Collision.m in Sources */ = {isa = PBXBuildFile; fileRef = F8638E22130699B600D1BF07 /* Collision.m */; };
+		F89A3A91130A3E8300AA10A4 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = F89A3A90130A3E8300AA10A4 /* Contact.m */; };
+		F8D9EA6412F8698700D2EF39 /* Matrix2D.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D9EA5E12F8698700D2EF39 /* Matrix2D.m */; };
+		F8D9EA6612F8698700D2EF39 /* Vector2D.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D9EA6212F8698700D2EF39 /* Vector2D.m */; };
+		F8D9EA6912F86AAE00D2EF39 /* World.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D9EA6812F86AAE00D2EF39 /* World.m */; };
+		F8D9EA8812F9688800D2EF39 /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D9EA8712F9688800D2EF39 /* GameObject.m */; };
+		F8D9EADC12F96D9600D2EF39 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D9EADB12F96D9600D2EF39 /* Rectangle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Falling_BricksAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Falling_BricksAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Falling_BricksAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Falling_BricksAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Falling Bricks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Falling Bricks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* Falling_BricksViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Falling_BricksViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* Falling_BricksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Falling_BricksViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* Falling_BricksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Falling_BricksViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Falling_Bricks_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Falling_Bricks_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Falling_Bricks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Falling_Bricks-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F80DA768130C114700905464 /* ArrowHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowHeadView.h; sourceTree = "<group>"; };
+		F80DA769130C114700905464 /* ArrowHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowHeadView.m; sourceTree = "<group>"; };
+		F80DA8F3130C49FE00905464 /* AxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxisView.h; sourceTree = "<group>"; };
+		F80DA8F4130C49FE00905464 /* AxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxisView.m; sourceTree = "<group>"; };
+		F80DA8F6130C4A4B00905464 /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
+		F80DA925130C4CCC00905464 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		F80DA926130C4CCC00905464 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		F83124151309670000157ABD /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		F83124171309677B00157ABD /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		F83124181309677B00157ABD /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		F8312626130A216800157ABD /* RectangleRectangleCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleRectangleCollision.h; sourceTree = "<group>"; };
+		F8312627130A216800157ABD /* RectangleRectangleCollision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleRectangleCollision.m; sourceTree = "<group>"; };
+		F8312692130A2C4C00157ABD /* CircleCircleCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCircleCollision.h; sourceTree = "<group>"; };
+		F8312693130A2C4C00157ABD /* CircleCircleCollision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCircleCollision.m; sourceTree = "<group>"; };
+		F83126B1130A319500157ABD /* RectangleCircleCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleCircleCollision.h; sourceTree = "<group>"; };
+		F83126B2130A319500157ABD /* RectangleCircleCollision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleCircleCollision.m; sourceTree = "<group>"; };
+		F8638E21130699B600D1BF07 /* Collision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collision.h; sourceTree = "<group>"; };
+		F8638E22130699B600D1BF07 /* Collision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collision.m; sourceTree = "<group>"; };
+		F89A3A8F130A3E8300AA10A4 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		F89A3A90130A3E8300AA10A4 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		F8D9EA5D12F8698700D2EF39 /* Matrix2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix2D.h; sourceTree = "<group>"; };
+		F8D9EA5E12F8698700D2EF39 /* Matrix2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix2D.m; sourceTree = "<group>"; };
+		F8D9EA6112F8698700D2EF39 /* Vector2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2D.h; sourceTree = "<group>"; };
+		F8D9EA6212F8698700D2EF39 /* Vector2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vector2D.m; sourceTree = "<group>"; };
+		F8D9EA6712F86AAE00D2EF39 /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		F8D9EA6812F86AAE00D2EF39 /* World.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = World.m; sourceTree = "<group>"; };
+		F8D9EA7012F901DF00D2EF39 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		F8D9EA8612F9688800D2EF39 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		F8D9EA8712F9688800D2EF39 /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObject.m; sourceTree = "<group>"; };
+		F8D9EADA12F96D9600D2EF39 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		F8D9EADB12F96D9600D2EF39 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F8D9EA4D12F8697900D2EF39 /* Physics */,
+				F8D9EA8612F9688800D2EF39 /* GameObject.h */,
+				F8D9EA8712F9688800D2EF39 /* GameObject.m */,
+				1D3623240D0F684500981E51 /* Falling_BricksAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Falling_BricksAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* Falling_BricksViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* Falling_BricksViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Falling Bricks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Falling_Bricks_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* Falling_BricksViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Falling_Bricks-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F80DA767130C112F00905464 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F80DA8F6130C4A4B00905464 /* Debug.h */,
+				F80DA8F3130C49FE00905464 /* AxisView.h */,
+				F80DA8F4130C49FE00905464 /* AxisView.m */,
+				F80DA925130C4CCC00905464 /* CircleView.h */,
+				F80DA926130C4CCC00905464 /* CircleView.m */,
+				F80DA768130C114700905464 /* ArrowHeadView.h */,
+				F80DA769130C114700905464 /* ArrowHeadView.m */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		F831257F13098F6500157ABD /* Collision */ = {
+			isa = PBXGroup;
+			children = (
+				F89A3A8F130A3E8300AA10A4 /* Contact.h */,
+				F89A3A90130A3E8300AA10A4 /* Contact.m */,
+				F8638E21130699B600D1BF07 /* Collision.h */,
+				F8638E22130699B600D1BF07 /* Collision.m */,
+				F8312692130A2C4C00157ABD /* CircleCircleCollision.h */,
+				F8312693130A2C4C00157ABD /* CircleCircleCollision.m */,
+				F83126B1130A319500157ABD /* RectangleCircleCollision.h */,
+				F83126B2130A319500157ABD /* RectangleCircleCollision.m */,
+				F8312626130A216800157ABD /* RectangleRectangleCollision.h */,
+				F8312627130A216800157ABD /* RectangleRectangleCollision.m */,
+			);
+			name = Collision;
+			sourceTree = "<group>";
+		};
+		F86391401307001D00D1BF07 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F8D9EA6112F8698700D2EF39 /* Vector2D.h */,
+				F8D9EA6212F8698700D2EF39 /* Vector2D.m */,
+				F8D9EA5D12F8698700D2EF39 /* Matrix2D.h */,
+				F8D9EA5E12F8698700D2EF39 /* Matrix2D.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		F8D9EA4D12F8697900D2EF39 /* Physics */ = {
+			isa = PBXGroup;
+			children = (
+				F8D9EA6712F86AAE00D2EF39 /* World.h */,
+				F8D9EA6812F86AAE00D2EF39 /* World.m */,
+				F80DA767130C112F00905464 /* Debug */,
+				F86391401307001D00D1BF07 /* Common */,
+				F8D9EADD12F96D9E00D2EF39 /* Shapes */,
+				F831257F13098F6500157ABD /* Collision */,
+			);
+			name = Physics;
+			sourceTree = "<group>";
+		};
+		F8D9EADD12F96D9E00D2EF39 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				F8D9EA7012F901DF00D2EF39 /* Shape.h */,
+				F83124151309670000157ABD /* Shape.m */,
+				F83124171309677B00157ABD /* Circle.h */,
+				F83124181309677B00157ABD /* Circle.m */,
+				F8D9EADA12F96D9600D2EF39 /* Rectangle.h */,
+				F8D9EADB12F96D9600D2EF39 /* Rectangle.m */,
+			);
+			name = Shapes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Falling Bricks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Falling Bricks" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Falling Bricks";
+			productName = "Falling Bricks";
+			productReference = 1D6058910D05DD3D006BFB54 /* Falling Bricks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Falling Bricks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Falling Bricks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* Falling_BricksViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Falling_BricksAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* Falling_BricksViewController.m in Sources */,
+				F8D9EA6412F8698700D2EF39 /* Matrix2D.m in Sources */,
+				F8D9EA6612F8698700D2EF39 /* Vector2D.m in Sources */,
+				F8D9EA6912F86AAE00D2EF39 /* World.m in Sources */,
+				F8D9EA8812F9688800D2EF39 /* GameObject.m in Sources */,
+				F8D9EADC12F96D9600D2EF39 /* Rectangle.m in Sources */,
+				F8638E23130699B600D1BF07 /* Collision.m in Sources */,
+				F83124161309670000157ABD /* Shape.m in Sources */,
+				F83124191309677B00157ABD /* Circle.m in Sources */,
+				F8312628130A216800157ABD /* RectangleRectangleCollision.m in Sources */,
+				F8312694130A2C4C00157ABD /* CircleCircleCollision.m in Sources */,
+				F83126B3130A319500157ABD /* RectangleCircleCollision.m in Sources */,
+				F89A3A91130A3E8300AA10A4 /* Contact.m in Sources */,
+				F80DA76A130C114700905464 /* ArrowHeadView.m in Sources */,
+				F80DA8F5130C49FE00905464 /* AxisView.m in Sources */,
+				F80DA927130C4CCC00905464 /* CircleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Falling_Bricks_Prefix.pch;
+				INFOPLIST_FILE = "Falling_Bricks-Info.plist";
+				PRODUCT_NAME = "Falling Bricks";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Falling_Bricks_Prefix.pch;
+				INFOPLIST_FILE = "Falling_Bricks-Info.plist";
+				PRODUCT_NAME = "Falling Bricks";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Falling Bricks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Falling Bricks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
